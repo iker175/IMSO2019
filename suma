@@ -1,0 +1,6 @@
+@echo off
+set parametro1=%1
+set parametro=%2
+set suma
+set /a suma=(%parametro1%+%parametro2%)*2020
+echo la suma de %parametro1% mas %parametro2% x 2020 es igual a (%suma%)
